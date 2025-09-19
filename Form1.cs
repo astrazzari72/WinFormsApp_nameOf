@@ -150,7 +150,7 @@ namespace WinFormsApp_nameOf
 			string n2 = nameof(MyStaticClass.MyStaticProp);   // "MyStaticProp"
 			string n3 = nameof(MyStaticClass.MyStaticFunc);   // "MyStaticFunc"
 			MessageBox.Show(
-				$"{n1} {n2} {n3}", //
+				$"{n1} {n2} {n3}",
 				"nameof",
 				MessageBoxButtons.OK,
 				MessageBoxIcon.Information
